@@ -10,6 +10,7 @@ h1 {
 }
 
 .fat {
+	display: block;
 	width: 70vw;
 	height: 50hh;
 	margin: auto;
