@@ -12,9 +12,9 @@ h1 {
 .fat {
 	display: block;
 	width: 70vw;
-	height: 50hh;
+	height: 50vh;
 	margin: auto;
 	background-color: #00f;
-	font-size: 50px;
+	font-size: 40vh;
 	color: #fff;
 }
