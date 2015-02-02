@@ -8,3 +8,12 @@ h1 {
 	margin: 0;
 	line-height: 1em;
 }
+
+.fat {
+	width: 70vw;
+	height: 50hh;
+	margin: auto;
+	background-color: #00f;
+	font-size: 50px;
+	color: #fff;
+}
