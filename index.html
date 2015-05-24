@@ -3,9 +3,57 @@
 	<head>
 		<title>GeckoGames</title>
 		<link rel="stylesheet" href="style.css">
+        <script src="switch.js"></script>
 	</head>
 	<body>
-		<h1>GeckoGames</h1>
-		<a class="fat" href="splat">SPLAT</a>
+        <div class="col"></div>
+        <div class="bin">
+		  <h1>GeckoGames</h1>
+        </div>
+        <div class="tabbar">
+            <div class="tabs">
+                <div class="tab selected" id="gamestab">Games</div><div class="tab" id="codetab">Code</div>
+            </div>
+        </div>
+        <div class="list" id="games">
+            <a class="el" href="https://github.com/geckogames/splat">
+                Splat!
+                <div class="description">
+                    A platformer game in which you must kill slimes and progress through many challenging levels.
+                </div>
+            </a>
+            <a class="el" href="https://github.com/geckogames/escapethevoid">
+                Tetramino Escape
+                <div class="description">
+                    An arcade-style game in which you control falling tetraminoes in a manner similar to quadrapassel, and at the same time you control a character which must climb up the blocks in order to escape out the top of the screen.
+                </div>
+            </a>
+            <a class="el" href="#">
+                More To Come...
+                <div class="description">
+                    We will work to create more games! We love creating games, and are always trying to find inspiration for new projects!
+                </div>
+            </a>
+        </div>
+        <div class="list" id="code" style="display: none;">
+            <a class="el" href="https://github.com/geckogames/ggwge2d">
+                ggwge2d
+                <div class="description">
+                    A web game engine designed to make it much much easier and quicker to create complex games with less code.
+                </div>
+            </a>
+            <a class="el" href="https://github.com/geckogames/miditools-js">
+                miditools-js
+                <div class="description">
+                    A JavaScript library for the detection of MIDI keyboard keys. This is a layer on top of the JavaScript MIDI API that is much simpler and easier to use.
+                </div>
+            </a>
+            <a class="el" href="#">
+                More To Come...
+                <div class="description">
+                    We will work to create more code! We love creating games, and are always trying to find inspiration for new projects!
+                </div>
+            </a>
+        </div>
 	</body>
 </html>
