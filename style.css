@@ -1,79 +1,68 @@
 body {
-    font-size: 20px;
-    color: #222;
-    background-color: #222;
-    font-family: sans-serif;
-    margin: 0;
-}
+  font-size: 20px;
+  background-color: red;
+  font-family: sans-serif;
+  margin: 0; }
 
 h1 {
-    text-align: center;
-    display: block;
-    margin: 0;
-    padding: 20px 0;
-}
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding: 20px 0; }
 
 .bin {
-    background: #eee;
-}
+  background: #eee; }
 
 .tabbar {
-    width: 100vw;
-    background-color: #222;
-    z-index: -1;
-    border-top: 10px solid #eee;
-}
+  width: 100vw;
+  background-color: #222;
+  z-index: -1;
+  border-top: 10px solid #eee; }
 
 .tabs {
-    width: 400px;
-    margin: 0 auto;
-    background-color: #222;
-    margin-top: -10px;
-}
+  width: 400px;
+  margin: 0 auto;
+  background-color: #222;
+  margin-top: -10px; }
 
 .tab {
-    width: 200px;
-    display: inline-block;
-    border-top: 10px solid #eee;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 22px;
-    color: #f8f8f8;
-    cursor: default;
-    transition: all 0.1s linear;
-}
+  width: 200px;
+  display: inline-block;
+  border-top: 10px solid #eee;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 22px;
+  color: #f8f8f8;
+  cursor: default;
+  transition: all 0.1s linear; }
+
 .tab.selected {
-    border-top: 10px solid #77f;
-    background: #fff;
-    color: #222;
-}
+  border-top: 10px solid #77f;
+  background: #fff;
+  color: #222; }
 
 .list {
-    width: 700px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 1px 0;
-}
+  width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1px 0; }
 
 .el {
-    padding: 5px 10px;
-    margin: 10px;
-    display: block;
-    color: #222;
-    text-decoration: none;
-}
+  padding: 5px 10px;
+  margin: 10px;
+  display: block;
+  color: #222;
+  text-decoration: none; }
 
 .description {
-    font-size: 16px;
-    padding: 7px 0 0 0;
-}
+  font-size: 16px;
+  padding: 7px 0 0 0; }
 
 .col {
-    width: 700px;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: calc(100vw/2 - 700px/2);
-    background-color: #fff;
-    z-index: -1;
-}
+  width: 700px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: calc(100vw/2 - 700px/2);
+  background-color: #fff;
+  z-index: -1; }
