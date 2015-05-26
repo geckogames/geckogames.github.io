@@ -1,8 +1,11 @@
-$bg: #222
+$highlights: #f67
+$bg: invert($highlights)
+$dark: #222
+$light: #fff
 
 body
     font-size: 20px
-    background-color: red
+    background: $bg
     font-family: sans-serif
     margin: 0
 
@@ -11,49 +14,50 @@ h1
     display: block
     margin: 0
     padding: 20px 0
+    color: $light
 
 .bin
-    background: #eee
+    background: $bg
 
 .tabbar
     width: 100vw
-    background-color: #222
+    background: $bg
     z-index: -1
-    border-top: 10px solid #eee
+    border-top: 10px solid $bg
 
 .tabs
     width: 400px
     margin: 0 auto
-    background-color: #222
+    background: $bg
     margin-top: -10px
 
 .tab
     width: 200px
     display: inline-block
-    border-top: 10px solid #eee
+    border-top: 10px solid $bg
     text-align: center
     padding: 10px 0
     font-size: 22px
-    color: #f8f8f8
+    color: $light
     cursor: default
     transition: all 0.1s linear
 
 .tab.selected
-    border-top: 10px solid #77f
-    background: #fff
-    color: #222
+    border-top: 10px solid $highlights
+    background: $light
+    color: $bg
 
 .list
     width: 700px
     margin: 0 auto
-    background: #fff
+    background: $light
     padding: 1px 0
 
 .el
     padding: 5px 10px
     margin: 10px
     display: block
-    color: #222
+    color: $dark
     text-decoration: none
 
 .description
@@ -66,5 +70,5 @@ h1
     position: fixed
     top: 0
     left: calc(100vw/2 - 700px/2)
-    background-color: #fff
+    background: $light
     z-index: -1
